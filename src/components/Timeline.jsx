@@ -90,7 +90,6 @@ export default function Timeline() {
                       {/* Hover accent */}
                       <motion.div
                         className="h-px mt-4"
-                        style={{ background: `linear-gradient(${isEven ? '90deg' : '270deg'}, ${color}40, transparent)` }}
                         initial={{ scaleX: 0 }}
                         whileHover={{ scaleX: 1 }}
                         style={{ originX: isEven ? 0 : 1 }}
